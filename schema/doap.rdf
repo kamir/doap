@@ -4,46 +4,38 @@
   xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:doap="http://usefulinc.com/ns/doap#"
+  xmlns:doap="http://semanpix.de/ns/doad#"
 >
-
-<!-- Copyright © 2004-2009 Edd Dumbill <edd@usefulinc.com>
+<!-- 
+    This work is based on the DOAP Ontology
+ 
+    Copyright © 2004-2009 Edd Dumbill <edd@usefulinc.com>
 
 	$LastChangedDate$
 	$LastChangedRevision$
 	$LastChangedBy$
-
 -->
 
-<!-- about this schema -->
+<!-- Transformation from DOAP to DOAD : by Mirko Kämpf © 2014 <mirko.kaempf@cloudera.com> -->
 
-<owl:Ontology rdf:about="http://usefulinc.com/ns/doap#">
+<owl:Ontology rdf:about="http://semanpix.de/ns/doad#">
 	<owl:imports rdf:resource="http://xmlns.com/foaf/0.1/index.rdf" />
-
-	<dc:title>Description of a Project (DOAP) vocabulary</dc:title>
-	<dc:description>The Description of a Project (DOAP) vocabulary, described using W3C RDF Schema and the Web Ontology Language.</dc:description>
-	<dc:description xml:lang="fr">Le vocabulaire Description Of A Project (DOAP, Description D'Un Projet),
-		décrit en utilisant RDF Schema du W3C et OWL.</dc:description>
-	<dc:description xml:lang="es">El vocabulario Description of a Project (DOAP, Descripción de un Proyecto), descrito usando RDF Schema de W3C
-		y Web Ontology Language.</dc:description>
-	<dc:description xml:lang="de">Das Vokabular "Description of a Project (DOAP)", beschrieben durch W3C RDF Schema and the Web Ontology Language.</dc:description>
-        <dc:description xml:lang="cs">Slovník Description of a Project (DOAP, Popis projektu), popsaný použitím W3C RDF Schema a Web Ontology Language.</dc:description>
-        <dc:description xml:lang="pt">Vocabulário de descrição de um Projeto (DOAP - Description of a Project), descrito no esquema (schema) W3C RDF e na Web Ontology Language.</dc:description>
-	<dc:creator>Edd Dumbill</dc:creator>
+	<dc:title>Description of a Dataset (DOAD) vocabulary</dc:title>
+	<dc:description>The Description of a Dataset (DOAD) vocabulary, described using W3C RDF Schema and the Web Ontology Language.</dc:description>
+	<dc:description xml:lang="de">Das Vokabular "Description of a Dataset (DOAP)", beschrieben durch W3C RDF Schema and the Web Ontology Language.</dc:description>
+        <dc:creator>Edd Dumbill</dc:creator>
 	<dc:format>application/rdf+xml</dc:format>
-	<dc:rights>Copyright © 2004-2009 Edd Dumbill</dc:rights>
-
+	<dc:rights>Copyright © 2014 Mirko Kämpf</dc:rights>
 	<foaf:maker>
 		<foaf:Person>
-			<foaf:name>Edd Dumbill</foaf:name>
-			<foaf:mbox rdf:resource="mailto:edd@usefulinc.com" />
+			<foaf:name>Mirko Kämpf</foaf:name>
+			<foaf:mbox rdf:resource="mailto:mirko@cloudera.com" />
 		</foaf:Person>
 	</foaf:maker>
-
 </owl:Ontology>
 
-<!-- Classes are listed first -->
 
+<!-- Classes : -->
 <rdfs:Class rdf:about="http://usefulinc.com/ns/doap#Project">
 	<rdfs:isDefinedBy rdf:resource="http://usefulinc.com/ns/doap#" />
 	<rdfs:label xml:lang="en">Project</rdfs:label>
