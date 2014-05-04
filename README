@@ -1,5 +1,18 @@
-DOAP is a project to create an XML/RDF vocabulary to describe software
-projects, and in particular open source projects.
+Description of a Dataset
+========================
 
-In addition to developing an RDF schema and examples, the DOAP project aims to
+DOAD is a project to create an XML/RDF vocabulary to describe datasets. 
+
+It does not matter if a dataset is available for download as a  ZIP archive, containing multiple 
+spreadsheets or if it is a large HBase table, stored in a Hadoop cluster. DOAD files are used to expose metadata 
+about data sets, without opening the technical environment.
+
+In an ideal world, all scientific publications would reference a public DOAD file, which contains relevant metadata in
+a machine readable form.
+
+This project is an addition to the DOAP project, which also aims to
 provide tool support in all the popular programming languages.
+
+During the first project phase, the focus of DOAD is on building a reusable schema and a set of example DOAD files
+for public data sets.
+
