@@ -1,3 +1,7 @@
+2014-05-04  Mirko Kämpf <mirko@cloudera.com>
+
+	* create doad.rdf from doap.rdf to build a Dataset description schema 
+
 2007-08-23  Edd Dumbill  <edd@usefulinc.com>
 
 	* doap.rdf: incorporated German translation from Heiko Ronsdorf
