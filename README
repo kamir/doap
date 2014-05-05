@@ -3,16 +3,21 @@ DOAD: Description of a Dataset
 
 DOAD is a project to create an XML/RDF vocabulary to describe datasets. 
 
-It does not matter if a dataset is available for download as a  ZIP archive, containing multiple 
+It does not matter if a dataset is available as a downloadable ZIP archive which contains documents, e.g. multiple 
 spreadsheets or if it is a large HBase table, stored in a Hadoop cluster. DOAD files are used to expose metadata 
-about data sets, without opening the technical environment.
+about data sets, without any impact on the cluster environment. There are no additional user accounts nor  
+public access to the cluster or file server required.
 
-In an ideal world, all scientific publications would reference a public DOAD file, which contains relevant metadata in
-a machine readable form.
+Based on DOAP files, aninterconnected layer of data set descriptors will be created and spread across the web.
+In an ideal world, all scientific publications would reference public DOAD files, which contain relevant metadata 
+about all used data sets in a machine readable form. Access to the raw data is not considered. The metadata layser
+is only required for consistency checks and for communication purposses. Based on contact details which are part of 
+the dataset descriptor, access conditions can be negotiated by humans. Information about public access is also part 
+of the metadata, this way the approach is open for public open data sets as well as for internal private data.
 
-This project is an addition to the DOAP project, which also aims to
-provide tool support in all the popular programming languages.
+This project was inspired and is based on the "DOAP project", which also aims on providing tool support in all the 
+popular programming languages.
 
-During the first project phase, the focus of DOAD is on building a reusable schema and a set of example DOAD files
-for public data sets.
+During the first project phase, the focus of DOAD is on building a reusable metadata schema and a set of example DOAD 
+files for public data sets.
 
