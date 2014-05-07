@@ -21,6 +21,12 @@ popular programming languages.
 During the first project phase, the focus of DOAD is on building a reusable metadata schema and a set of example DOAD 
 files for public data sets.
 
+How would it be, if we could explore and compare data sets like those listed here:
+http://www.kdnuggets.com/datasets/index.html
+
+We are not so many steps away from this. What we need is an initial initiative to create and connect DOAD files.
+The more people think about: "What should others know about my data set?" the faster we can achieve first results
+and better data integration.
 
 TODO: Explain how to use DOAD files ....
 
